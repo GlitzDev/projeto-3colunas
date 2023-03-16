@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+/** Reset do css e o container **/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    height: 600px;
+    width: 1000px;
+}
+
+/** Estilos das Caixas **/
+
+.box1, .box2, .box3 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 60px;
+    
+}
+
+.box1{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+
+}
+
+.box2{
+    background-color: hsl(184, 100%, 22%);
+
+}
+
+.box3 {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 10px 10px 0;
+
+}
+
+/** Conteúdo interno **/
+
+.logo {
+    height: 50px;
+    width: 80px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 25px;
+    margin-bottom: 70px;
+}
+
+/** Estilização dos botões**/
+
+.btn1, .btn2, .btn3 {
+    font-size: 15px;
+    width: 180px;
+    height: 50px;
+    border-radius: 30px;
+    cursor: pointer;
+    border-color: hsl(0, 0%, 95%);
+    transition: 0.7s ease-in-out;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+.btn1 {
+    color: hsl(31, 77%, 52%);
+}
+.btn2{
+    color: hsl(184, 100%, 22%);
+}
+.btn3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.btn1:hover {
+    background-color: hsl(31, 77%, 52%);
+    color:hsl(0, 0%, 95%);
+}
+.btn2:hover {
+    background-color: hsl(184, 100%, 22%);
+    color:hsl(0, 0%, 95%);
+}
+.btn3:hover {
+    background-color: hsl(179, 100%, 13%);
+    color:hsl(0, 0%, 95%);
+}
