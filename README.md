@@ -4,13 +4,13 @@
 ---
 >### Recursos
 
-*Html*
+  - *Html*
 
-*Css*
+  - *Css*
 
-*Flexbox*
+  - *Flexbox*
 
-*@media*
+  - *@media*
 
 ---
 
@@ -19,6 +19,8 @@
 Mais um desafio do site <a href="https://www.frontendmentor.io/home" target="_blank">Frontend Mentor</a> comcluido 🥳
 
 Para concluir esse desafio foi necessario conhecimentos em _Html_ e _Css_, com a utlização de _flexbox_ para montar o design e @media query para um layout responsivo.
+
+---
 
 >### Preview
 
